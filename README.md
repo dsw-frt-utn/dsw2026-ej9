@@ -13,7 +13,7 @@
     * Cualquier operación se debe realizar si la cuenta está activa, en cualquier otro caso generar una excepción del tipo `AccountNotActive`.
     * Se debe contar con saldo para realizar un retiro, caso contrario debe generar una excepción `InsufficientBalance` y la cuenta debe quedar suspendida. Tener en cuenta el límite de descubierto si corresponde
 8. Instanciar 4 cuentas (dos de cada tipo) y realizar diferentes operaciones que permitan comprobar todas las funciones posibles.
-9. Recorrer las 4 cuentas creadas, crear un `record` qué contenga el número, tipo y saldo. Mostrar por consola el contenido del `record`.
+9. Recorrer las 4 cuentas creadas, crear un `record` que contenga el número, tipo y saldo. Mostrar por consola el contenido del `record`.
 
 **Consideraciones**:
 - Las excepciones deben incluir los siguiente mensajes:
